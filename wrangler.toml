@@ -3,6 +3,13 @@ main = "src/index.ts"
 compatibility_date = "2026-09-01"
 compatibility_flags = ["nodejs_compat"]
 
+# workers.dev stays on: https://sleeper-mcp.<subdomain>.workers.dev/mcp is this
+# MCP server's serving URL (no custom domain). See README "Connect".
+workers_dev = true
+# House policy: no preview URLs anywhere. Set explicitly so each deploy turns the
+# dashboard Preview URLs toggle off.
+preview_urls = false
+
 # Optional agents peer; not used at runtime. Lets Wrangler resolve a dynamic import.
 [alias]
 ai = "./src/ai-stub.ts"
