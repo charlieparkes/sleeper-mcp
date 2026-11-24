@@ -38,7 +38,7 @@ Same path as porkbun-mcp: connect this GitHub repo on the Worker. Cloudflare dep
 
 | Setting | Value |
 |---------|-------|
-| Git account | `merimeesoftware` |
+| Git account | `charlieparkes` |
 | Repository | `sleeper-mcp` |
 | Production branch | `main` |
 | Enable Preview builds | on |
@@ -47,7 +47,7 @@ Same path as porkbun-mcp: connect this GitHub repo on the Worker. Cloudflare dep
 
 Leave the API token on the default Cloudflare-generated Builds token. Runtime identity stays on **Settings → Variables and Secrets** as **encrypted secrets**, not in GitHub and not in `[vars]`. Empty `SLEEPER_USERNAME` / `SLEEPER_LEAGUE_ID` in `wrangler.toml` overwrite secrets of the same name on deploy. Season is not a Worker var; `list_leagues` uses Sleeper's current NFL season unless the caller passes `season`.
 
-First-time KV (already done for merimeesoftware):
+First-time KV:
 
 ```bash
 npx wrangler kv namespace create sleeper-mcp-cache
