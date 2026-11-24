@@ -3,8 +3,8 @@
 > Machine-readable stack card for agents and humans.
 
 **Last updated:** 2026-09-16
-**Repo:** https://github.com/merimeesoftware/sleeper-mcp
-**Owner account:** merimeesoftware
+**Repo:** https://github.com/charlieparkes/sleeper-mcp
+**Owner account:** charlieparkes
 
 ---
 
@@ -61,7 +61,7 @@ src/sleeper.ts    Sleeper client + KV cache
 wrangler.toml     Worker + KV binding
 ```
 
-## 10. Mismatch vs universal Merimee stack
+## 10. Mismatch vs universal stack
 
 | Area | Current | Target | Priority to fix |
 |------|---------|--------|-----------------|

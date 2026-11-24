@@ -224,7 +224,7 @@ export default {
           name: "sleeper-mcp",
           mcp: "/mcp",
           transport: "streamable-http",
-          docs: "https://github.com/merimeesoftware/sleeper-mcp",
+          docs: "https://github.com/charlieparkes/sleeper-mcp",
         },
         { headers: cors },
       );
